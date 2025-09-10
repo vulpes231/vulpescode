@@ -21,7 +21,7 @@ const styles = {
 		button: "text-base md:text-lg font-semibold tracking-wide",
 		// Button text
 	},
-	section: "p-6 w-full mt-[70px]",
+	section: "p-6 w-full mt-[70px] max-w-5xl mx-auto",
 	color: {
 		background: "bg-[#f9fafb] dark:bg-[#0f172a]", // light / dark
 		heading: "text-[#111827] dark:text-[#f1f5f9]", // heading text
@@ -35,3 +35,5 @@ const styles = {
 		ctaText: "text-white", // CTA text
 	},
 };
+
+export { styles };
