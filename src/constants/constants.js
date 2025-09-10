@@ -13,15 +13,26 @@ import {
 
 const navLinks = [
 	{
-		id: "about",
-		title: "About",
-		path: "",
+		id: "home",
+		title: "home",
 	},
 	{
-		id: "resume",
-		title: "Resume",
-		path: "https://www.dropbox.com/scl/fi/kh24i8ap5lfndihs92tdk/resumebnov.pdf?rlkey=o7x74k289ryux8p2hjrhlumwj&st=g46n58tj&dl=0",
+		id: "about",
+		title: "about",
 	},
+	{
+		id: "projects",
+		title: "projects",
+	},
+	{
+		id: "contact",
+		title: "contact",
+	},
+	// {
+	// 	id: "resume",
+	// 	title: "Resume",
+	// 	path: "https://www.dropbox.com/scl/fi/kh24i8ap5lfndihs92tdk/resumebnov.pdf?rlkey=o7x74k289ryux8p2hjrhlumwj&st=g46n58tj&dl=0",
+	// },
 ];
 
 const experiences = [
