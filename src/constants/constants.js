@@ -134,6 +134,12 @@ const techStack = [
 	{ title: "Tailwind CSS", pic: tail },
 ];
 
+const getAccessToken = () => {
+	return sessionStorage.getItem("token") || null;
+};
+const devServer = ``;
+const liveServer = ``;
+
 export {
 	navLinks,
 	experiences,
@@ -142,4 +148,7 @@ export {
 	text,
 	socialLinks,
 	techStack,
+	getAccessToken,
+	devServer,
+	liveServer,
 };
