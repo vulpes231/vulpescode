@@ -36,6 +36,7 @@ const Navbar = () => {
 							smooth={true}
 							offset={-80}
 							duration={500}
+							key={link.id}
 						>
 							{link.title}
 							{/* Animated underline */}

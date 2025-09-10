@@ -64,7 +64,7 @@ const Hero = () => {
 							smooth={true}
 							offset={-50}
 							duration={500}
-							className={`px-6 py-3 ${styles.font.button} ${styles.color.accent} bg-white dark:bg-[#1e293b] rounded-xl shadow-lg hover:bg-gray-100 dark:hover:bg-[#334155] transition`}
+							className={`px-6 py-3 ${styles.font.button} ${styles.color.ctaText} bg-white dark:bg-[#1e293b] rounded-xl shadow-lg hover:bg-gray-100 dark:hover:bg-[#334155] transition`}
 						>
 							Let’s Connect
 						</Link>

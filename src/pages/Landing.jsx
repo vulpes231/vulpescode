@@ -1,6 +1,6 @@
 import React from "react";
 import { styles } from "../styles/styles";
-import { About, Hero, Projects } from "../components";
+import { About, Contact, Footer, Hero, Projects } from "../components";
 
 const Landing = () => {
 	return (
@@ -8,6 +8,8 @@ const Landing = () => {
 			<Hero />
 			<About />
 			<Projects />
+			<Contact />
+			<Footer />
 		</section>
 	);
 };

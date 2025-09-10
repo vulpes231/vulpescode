@@ -13,10 +13,6 @@ const App = () => {
 	const { darkMode } = useSelector(selectNavSlice);
 
 	useEffect(() => {
-		document.title = `Vulpescode - ${location.pathname}`;
-	}, []);
-
-	useEffect(() => {
 		if (darkMode) {
 			document.documentElement.classList.add("dark");
 			localStorage.setItem("theme", "dark");
@@ -30,6 +26,7 @@ const App = () => {
 		<div className={`${styles.color.background} relative`}>
 			<div className="absolute top-0 left-0 w-[300px] h-[300px] bg-gradient-to-br from-[#16a34a]/50 to-transparent rounded-full blur-3xl" />
 			<div className="absolute bottom-5 right-0 w-[300px] h-[300px] bg-gradient-to-tr from-[#2563eb]/50 to-transparent rounded-full blur-3xl" />
+			<div className="absolute bottom-[40%] right-[25%] w-[300px] h-[300px] bg-gradient-to-tr from-[#2be6fa]/50 to-transparent rounded-full blur-3xl" />
 
 			<div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,#e5e7eb_1px,transparent_0)] dark:bg-[radial-gradient(circle_at_1px_1px,#334155_1px,transparent_0)] bg-[length:20px_20px]" />
 

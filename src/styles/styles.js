@@ -34,7 +34,7 @@ const styles = {
 		// Nav/inline links with smooth underline animation
 
 		button:
-			"text-base md:text-lg font-semibold tracking-wide" +
+			"text-base md:text-lg font-semibold tracking-wide " +
 			"text-white px-5 py-2.5 rounded-xl shadow-md " +
 			"bg-gradient-to-r from-[#22c55e] to-[#16a34a] " +
 			"hover:opacity-90 active:scale-[0.97] transition-all duration-200",
@@ -44,7 +44,7 @@ const styles = {
 	section: "p-6 w-full mt-[70px] max-w-6xl mx-auto",
 
 	color: {
-		background: "bg-slate-100 dark:bg-[#1e293b]", // global section bg
+		background: "bg-[#f9fafb] dark:bg-[#1e293b]", // global section bg
 		heading: "text-[#111827] dark:text-[#f1f5f9]", // heading text
 		body: "text-[#334155] dark:text-[#cbd5e1]", // body text
 		secondary: "text-[#475569] dark:text-[#94a3b8]", // muted text
